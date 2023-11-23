@@ -1,0 +1,20 @@
+assessment
+Please follow below instruction to get the project runing on your local machine. For any question or issues experianced, please email: eugene.maboe@gmail.com
+
+System prerequisite
+
+java 1.8 or higher.
+
+Gradle 5.0 or highter (But gradle wrapper in project should work)
+
+clone project from github.
+
+open terminal on project root.
+
+enter command, gradle clean build (To download all project dependencies)
+
+enter command gradle bootRun to run project.
+
+Once project is running, please goto http://localhost:8080/swagger-ui.html# for api documentation. username: user password: password
+
+To hit program api endpoint: http://localhost:8080/getWeather For Authorization username: user password: password
